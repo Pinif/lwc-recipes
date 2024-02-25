@@ -10,6 +10,7 @@
         $A.enqueueAction(action);
     },
     handleContactSelect: function (component, event) {
+        // Test comment
         var payload = { recordId: event.target.contact.Id };
 
         // Publish LMS message with payload
